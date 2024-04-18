@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/new.css">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <title>새 컬러 등록하기 - MBTI별 좋아하는 컬러</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>새 컬러 등록하기</h1>
+      <a href="/index.html" class="cancel-button">
+        <img src="/images/x.svg" alt="cancel">
+      </a>
+    </header>
+    <section>
+      <h2>MBTI</h2>
+      <div class="mbti-options">
+        <div class="mbti-option">
+          <span class="strong">E</span>
+          외향형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">I</span>
+          내향형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">S</span>
+          감각형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">N</span>
+          직관형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">T</span>
+          사고형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">F</span>
+          감정형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">J</span>
+          판단형
+        </div>
+        <div class="mbti-option">
+          <span class="strong">P</span>
+          인식형
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="color-repeat">
+        컬러
+        <button class="repeat" type="button">
+          <img class="repeat-icon" src="/images/repeat.svg">
+        </button>
+      </h2>
+      <div class="color-input-container">
+        <input class="color-input" name="color" type="text" value="#9441FF">
+        <span class="color-input-box" style="background-color: #9441FF"></span>
+      </div>      
+    </section>
+    <button type="button" class="enroll">컬러 등록</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+.container {
+  max-width: 416px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+/* 헤더 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .cancel-button {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 1rem;
+  background-color: #F5F7FB;
+  transition: .3s;
+}
+header .cancel-button:hover {
+  background-color: #EDF0F5;
+}
+
+section {
+  margin-top: 56px;
+}
+/* mbit 버튼 */
+section h2 {
+  font-weight: 500;
+}
+.mbti-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 1rem;
+}
+.mbti-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8892A6;
+  gap: 32px;
+  width: 200px;
+  height: 76px;
+  padding: 0 32px;
+  border-radius: 16px;
+  border: 2px solid #E7EBF2;
+  transition: .3s;
+}
+.mbti-option .strong {
+  color: #464E5E;
+  font-size: 40px;
+  font-weight: 500;
+  transition: .3s;
+}
+.mbti-option:hover {
+  background-color: #F5F7FB;
+}
+.mbti-option:active {
+  background-color: #464E5E;
+}
+.mbti-option:active .strong {
+  color: #ffffff;
+}
+
+/* 컬러 인풋 */
+.color-repeat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.repeat {
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #F5F7FB;
+  transition: .3s;
+}
+.repeat:hover {
+  background-color: #EDF0F5;
+}
+.color-input-container {
+  display: flex;
+  margin-top: 1rem;
+  padding: 16px 28px;
+  border-radius: 16px;
+  border: 2px solid #E7EBF2;
+  transition: .3s;
+}
+.color-input {
+  width: 100%;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  background: none;
+  color: #8892A6
+}
+.color-input-container:hover {
+  background: #F5F7FB;
+}
+.color-input-container:hover color-input {
+  color: #464E5E;
+}
+.color-input-container:active {
+  border: 2px solid #464E5E;
+  background: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.color-input:focus {
+ outline: none;
+}
+.color-input-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+/* 등록 버튼 */
+.enroll {
+  width: 100%;
+  margin-top: 56px;
+  padding: 20px;
+  border: 0;
+  border-radius: 16px;
+  background-color: #464E5E;
+  color: #ffffff;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+}
